@@ -4,8 +4,8 @@ um intervalo específico (por exemplo, entre 10 e 20, 20 e 30, até o 100).
 Nome Aluno:Tauane V. S. Souza 
 */
 
-var teclado = require('prompt-sync')();
-var valor = parseFloat(teclado("Digite um valor entre 0 e 100: "));
+let teclado = require('prompt-sync')();
+let valor = parseFloat(teclado("Digite um valor entre 0 e 100: "));
 if (valor >= 10 && valor <= 20) {
     console.log("O valor está entre 10 e 20");
 }

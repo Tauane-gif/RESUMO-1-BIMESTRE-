@@ -5,10 +5,10 @@
 Nome aluno: Tauane V.S.Souza 
 */
 
-var teclado = require('prompt-sync')();
-var contador = 1;
-var pares = 0;
-var impares = 0;
+let  teclado = require('prompt-sync')();
+let  contador = 1;
+let  pares = 0;
+let impares = 0;
 while (contador <= 10) {
     var numero = parseInt(teclado("Digite o ".concat(contador, "\u00BA n\u00FAmero inteiro: ")));
     if (numero % 2 === 0) {
