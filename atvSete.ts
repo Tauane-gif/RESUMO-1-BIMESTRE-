@@ -29,4 +29,4 @@ if (qntdNegativos > 0) {
 }
 
 console.log(`Soma dos números positivos: ${somaPositivos}`);
-console.log(`Média dos números negativos: ${mediaNegativos}`);
+console.log(`Média dos números negativos: ${mediaNegativos}`); 

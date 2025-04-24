@@ -28,4 +28,4 @@ let media = somaNotas / 5;
 
 console.log(`Maior nota: ${maior}`);
 console.log(`Menor nota: ${menor}`);
-console.log(`Média das notas: ${(2)}`);
+console.log(`Média das notas: ${(2)}`); 

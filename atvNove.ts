@@ -27,4 +27,4 @@ do {
         console.log(inicio);
     }
     inicio++;
-} while (inicio <= fim);
+} while (inicio <= fim); 

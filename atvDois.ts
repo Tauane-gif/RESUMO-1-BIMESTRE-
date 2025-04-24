@@ -3,7 +3,7 @@
 Nome Aluno: Tauane V. S. Souza
 */
 
-let teclado = require('prompt-sync')();
+let teclado = require('prompt-sync')(); 
 
 console.log("Digite três números para ver em ordem decrescente:");
 

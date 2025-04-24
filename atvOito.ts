@@ -39,4 +39,4 @@ let mediaMasculino = totalMasculino > 0 ? somaIdadeM / totalMasculino : 0;
 
 console.log(`Média de idade do sexo feminino: ${totalFeminino}`);
 
-console.log(`Média de idade do sexo masculino: ${totalMasculino}`);
+console.log(`Média de idade do sexo masculino: ${totalMasculino}`); 

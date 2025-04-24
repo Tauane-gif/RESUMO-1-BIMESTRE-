@@ -22,4 +22,4 @@ if (contador > 0) {
     console.log(`A média dos ${contador} números digitados é: ${media.toFixed(2)}`);
 } else {
     console.log("Nenhum número foi digitado.");
-}
+} 

@@ -22,7 +22,7 @@ else if (valor > 50 && valor <= 60) {
     console.log("O valor está entre 50 e 60");
 }
 else if (valor > 60 && valor <= 70) {
-    console.log("O valor está entre 60 e 70");
+    console.log("O valor está entre 60 e 70"); 
 }
 else if (valor > 70 && valor <= 80) {
     console.log("O valor está entre 70 e 80");

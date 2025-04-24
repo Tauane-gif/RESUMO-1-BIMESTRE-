@@ -49,4 +49,4 @@ if (formaPagamento === 0) {
 
 console.log(`Você escolheu o ${modelo} por R$ ${preco}`);
 console.log(`Forma de pagamento: ${formaPagamento}`);
-console.log(`Valor final: R$ ${precoFinal}`);
+console.log(`Valor final: R$ ${precoFinal}`); 

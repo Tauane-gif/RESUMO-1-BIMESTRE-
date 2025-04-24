@@ -27,6 +27,6 @@ if (contador > 0) {
     console.log(`A média das alturas das pessoas maiores de idade é: ${mediaAltura} metros.`);
 } else {
     console.log("Não há pessoas maiores de idade para calcular a média.");
-}
+} 
 
 

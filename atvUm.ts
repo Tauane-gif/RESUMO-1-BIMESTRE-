@@ -4,7 +4,7 @@ Mostre esses números. Em seguida, faça com que x passe a ter o valor de y, e q
 Nome Aluno: Tauane V. S. souza 
 */
 
-let teclado = require('prompt-sync')(); 
+let teclado = require('prompt-sync')();  
 
 let x: number = parseFloat(teclado('Digite um número:'));
 let y: number = parseFloat(teclado('Digite outro número: ')); 

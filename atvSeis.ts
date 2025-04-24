@@ -20,4 +20,4 @@ while (contador <= 10) {
     contador++;
 }
 console.log("Quantidade de n\u00FAmeros pares: ".concat(pares));
-console.log("Quantidade de n\u00FAmeros \u00EDmpares: ".concat(impares));
+console.log("Quantidade de n\u00FAmeros \u00EDmpares: ".concat(impares)); 
