@@ -7,8 +7,8 @@ let teclado = require('prompt-sync')();
 
 
 let numero = parseInt(teclado("Digite um número para saber se é primo: "));
-let divisores = 0;
-let contador = 1;
+let divisor: number  = 0;
+let contador: number = 1;
 
 while (contador <= numero) {
     if (numero % contador === 0) {
