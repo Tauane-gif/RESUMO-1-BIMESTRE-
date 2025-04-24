@@ -11,11 +11,11 @@ cada sexo.
 Nome Aluno: Laís Zanqueta
 */
 
-let contador = 1;
-let somaIdadeF= 0;
-let somaIdadeM = 0;
-let totalFeminino = 0;
-let totalMasculino = 0;
+let contador:number = 1;
+let somaIdadeF: number = 0;
+let somaIdadeM: number = 0;
+let totalFeminino: number = 0;
+let totalMasculino: number = 0;
 
 while (contador <= 50) {
     console.log(`Pessoa ${contador}:`);
