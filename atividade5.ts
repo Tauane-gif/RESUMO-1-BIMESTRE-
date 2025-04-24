@@ -3,21 +3,29 @@
 Nome Aluno: Tauane V.S. Souza 
 */
 
-var teclado = require('prompt-sync')();
-var maior = 0;
-var menor = 100;
-var somaNotas = 0;
-for (var i = 1; i <= 5; i++) {
-    var nota = parseFloat(teclado("Digite a nota ".concat(i, ": ")));
+let teclado = require('prompt-sync')();
+let maior = 0;
+let menor = 100;
+let somaNotas = 0;
+
+let i:number = 0;
+
+while (i <= 5) {
+    let nota = parseFloat(teclado(`Digite a nota ${i}: `));
     somaNotas += nota;
+
     if (nota > maior) {
         maior = nota;
     }
+
     if (nota < menor) {
         menor = nota;
     }
+    i++;
 }
-var media = somaNotas / 5;
-console.log("Maior nota: ".concat(maior));
-console.log("Menor nota: ".concat(menor));
-console.log("M\u00E9dia das notas: ".concat(media.toFixed(2)));
+
+let media = somaNotas / 5;
+
+console.log(`Maior nota: ${maior}`);
+console.log(`Menor nota: ${menor}`);
+console.log(`Média das notas: ${(2)}`);
