@@ -3,22 +3,30 @@
 pessoas maiores de idade.
 Nome aluno: Tauane V. S. Souza 
 */
-let teclado = require('prompt-sync')();
 
+const teclado = require (`prompt-sync`)();
 
-let numero = parseInt(teclado("Digite um número para saber se é primo: "));
-let divisor: number  = 0;
-let contador: number = 1;
+let totalAltura: number = 0;
+let contador: number = 0;
+let pessoaAtual: number = 1;
 
-while (contador <= numero) {
-    if (numero % contador === 0) {
-        divisores++;
+while (pessoaAtual <= 10) {
+    let idade: number = parseInt(teclado(`Digite a idade da pessoa ${pessoaAtual}:`));
+    let altura: number = parseInt(teclado(`Digite a altura da pessoa ${pessoaAtual}:`));
+
+    if (idade >= 18) {
+        totalAltura += altura;
+        contador++;
     }
-    contador++;
+
+    pessoaAtual++;
 }
 
-if (divisores === 2) {
-    console.log(`${numero} é primo.`);
+if (contador > 0) {
+    let mediaAltura: number = totalAltura / contador;
+    console.log(`A média das alturas das pessoas maiores de idade é: ${mediaAltura} metros.`);
 } else {
-    console.log(`${numero} não é primo.`);
+    console.log("Não há pessoas maiores de idade para calcular a média.");
 }
+
+
