@@ -5,10 +5,10 @@ Nome Aluno: Tauane V. S. Souza
 
 let teclado = require('prompt-sync')();
 
-let contador = 1;
-let somaPositivos = 0;
-let somaNegativos = 0;
-let qntdNegativos = 0;
+let contador: number = 1;
+let somaPositivos: number = 0;
+let somaNegativos: number = 0;
+let qntdNegativos: number = 0;
 
 while (contador <= 10) {
     let numero = parseFloat(teclado(`Digite o ${contador}º número: `));
