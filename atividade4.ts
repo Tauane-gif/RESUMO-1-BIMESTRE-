@@ -6,8 +6,8 @@ Nome aluno: Tauane V.S. Souza
 */
 
 let teclado = require('prompt-sync')();
-let soma = 0;
-let contador = 0;
+let soma: number = 0;
+let contador: number = 0;
 let continuar = 's';
 
 while (continuar === 's' || continuar === 'S') {
