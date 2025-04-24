@@ -4,8 +4,8 @@ Nome Aluno: Tauane V.S. Souza
 */
 
 let teclado = require('prompt-sync')();
-let maior = 0;
-let menor = 100;
+let maior: number = 0;
+let menor: number = 100;
 let somaNotas = 0;
 
 let i:number = 0;
