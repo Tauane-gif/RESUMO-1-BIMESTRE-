@@ -5,9 +5,9 @@ Nome aluno: Tauane V.S.Souza
 let teclado = require('prompt-sync')();
 
 
-let somaIdades = 0;
-let qtdPessoas = 0;
-let idade = 0;
+let somaIdades: number = 0;
+let qtdPessoas: number = 0;
+let idade: number = 0;
 
 while (idade >= 0) {
     idade = parseInt(teclado("Digite a idade (ou número negativo para parar): "));
