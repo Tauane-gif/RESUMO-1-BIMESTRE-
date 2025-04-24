@@ -7,6 +7,7 @@ let teclado = require('prompt-sync')();
 
 
 
+
 let contador:number = 1;
 let somaIdadeF: number = 0;
 let somaIdadeM: number = 0;

@@ -5,23 +5,26 @@ Nome aluno: Tauane V.S.Souza
 let teclado = require('prompt-sync')();
 
 
-let somaIdades: number = 0;
-let qtdPessoas: number = 0;
-let idade: number = 0;
+let entrada1: number = parseInt(teclado(`Digite um número: `));
+let entrada2: number = parseInt(teclado(`Digite um número: `));
 
-while (idade >= 0) {
-    idade = parseInt(teclado("Digite a idade (ou número negativo para parar): "));
+let inicio: number = 0;
+let fim: number = 0;
 
-    if (idade >= 0) {
-        somaIdades += idade;
-        qtdPessoas++;
+if (entrada1 >= entrada2) {
+    inicio = entrada2;
+    fim = entrada2;
+}
+else if (entrada2 >= entrada1) {
+    inicio = entrada1;
+    fim = entrada2;
+}
+
+console.log(`Números ímpares entre ${inicio} e ${fim}`);
+
+do {
+    if (inicio % 2 != 0) {
+        console.log(inicio);
     }
-}
-
-let media = 0;
-if (qtdPessoas > 0) {
-    media = somaIdades / qtdPessoas;
-    console.log(`A média das idades é: ${media}`);
-} else {
-    console.log("Nenhuma idade válida foi digitada.");
-}
+    inicio++;
+} while (inicio <= fim);
