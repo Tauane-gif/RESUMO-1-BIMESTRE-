@@ -6,9 +6,9 @@ Nome aluno: Tauane V.S.Souza
 */
 
 let  teclado = require('prompt-sync')();
-let  contador = 1;
-let  pares = 0;
-let impares = 0;
+let  contador: number = 1;
+let  pares: number = 0;
+let impares: number = 0;
 while (contador <= 10) {
     var numero = parseInt(teclado("Digite o ".concat(contador, "\u00BA n\u00FAmero inteiro: ")));
     if (numero % 2 === 0) {
