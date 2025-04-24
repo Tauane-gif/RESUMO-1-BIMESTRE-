@@ -12,7 +12,7 @@ let teclado = require('prompt-sync')();
 
 
 let numero = parseInt(teclado("Digite um número para ver a tabuada: "));
-let contador = 1;
+let contador: number = 1;
 
 while (contador <= 10) {
     let resultado = numero * contador;

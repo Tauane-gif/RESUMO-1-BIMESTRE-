@@ -5,11 +5,7 @@ Nome aluno: Tauane V. S. Souza
 */
 let teclado = require('prompt-sync')();
 
-/*
-8 - Leia a idade e o sexo de 50 pessoas e mostre a média de idade para
-cada sexo.
-Nome Aluno: Laís Zanqueta
-*/
+
 
 let contador:number = 1;
 let somaIdadeF: number = 0;
